@@ -25,4 +25,4 @@ docker run \
   --volume=${BASE_DIR}:${BASE_DIR}:ro \
   --volume=/var/run/docker.sock:/var/run/docker.sock \
     cyberdojofoundation/images_info \
-      /app/new_main.rb
+      /app/main.rb
