@@ -57,6 +57,6 @@ assert_system [
         env_var('SRC_DIR'),
         env_var('TRAVIS'),
         env_var('TRAVIS_REPO_SLUG'),
-          'image_builder_inner',
+          'images_info_inner',
             '/app/inner_main.rb',
     ].join(space) + ' ' + ARGV.join(space)

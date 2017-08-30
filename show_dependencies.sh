@@ -41,7 +41,7 @@ docker run \
   --env TRAVIS \
   --env TRAVIS_REPO_SLUG \
   --volume=/var/run/docker.sock:/var/run/docker.sock \
-    cyberdojofoundation/image_builder \
+    cyberdojofoundation/images_info \
       /app/outer_main.rb
 
 exit_status=$?
