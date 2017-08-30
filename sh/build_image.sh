@@ -11,4 +11,4 @@ docker build \
   --tag cyberdojofoundation/images_info \
     ${ROOT_DIR}
 
-${ROOT_DIR}/builder/build-docker-image.sh
+${ROOT_DIR}/app/build-docker-image.sh
