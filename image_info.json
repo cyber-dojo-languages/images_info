@@ -1,0 +1,527 @@
+{
+  "/Users/jonjagger/repos/cyber-dojo-languages/alpine-glibc": {
+    "from": "alpine:3.4",
+    "image_name": "cyberdojofoundation/alpine_glibc",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/alpine-language-base-3.4": {
+    "from": "alpine:3.4",
+    "image_name": "cyberdojofoundation/alpine-language_base:3.4",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/asm-2.12.02": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/nasm:2.12.02",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/asm-assert": {
+    "from": "cyberdojofoundation/nasm:2.12.02",
+    "image_name": "cyberdojofoundation/nasm_assert",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/bash": {
+    "from": "cyberdojofoundation/alpine-language_base:3.4",
+    "image_name": "cyberdojofoundation/bash",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/bash-bats": {
+    "from": "cyberdojofoundation/bash",
+    "image_name": "cyberdojofoundation/bash_bats",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/bash-shunit2": {
+    "from": "cyberdojofoundation/bash",
+    "image_name": "cyberdojofoundation/bash_shunit2",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/bash-unit": {
+    "from": "cyberdojofoundation/bash",
+    "image_name": "cyberdojofoundation/bash_unit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/bcpl": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/bcpl",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/bcpl-alltestspassed": {
+    "from": "cyberdojofoundation/bcpl",
+    "image_name": "cyberdojofoundation/bcpl_all_tests_passed",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/chapel-1.15.0": {
+    "from": "cyberdojofoundation/alpine_language_base:3.4",
+    "image_name": "cyberdojofoundation/chapel:1.15.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/chapel-assert": {
+    "from": "cyberdojofoundation/chapel:1.15.0",
+    "image_name": "cyberdojofoundation/chapel_assert",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clang-4.0.0": {
+    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "image_name": "cyberdojofoundation/clang:4.0.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clang-assert": {
+    "from": "cyberdojofoundation/clang:4.0.0",
+    "image_name": "cyberdojofoundation/clang_assert",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clang-cgreen": {
+    "from": "cyberdojofoundation/clang:4.0.0",
+    "image_name": "cyberdojofoundation/clang_cgreen",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clangplusplus-4.0.0": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/clangplusplus:4.0.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clangplusplus-assert": {
+    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "image_name": "cyberdojofoundation/clangpp_assert",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clangplusplus-cgreen": {
+    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "image_name": "cyberdojofoundation/clangpp_cgreen",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clangplusplus-googlemock": {
+    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "image_name": "cyberdojofoundation/clangpp_googlemock",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clangplusplus-googletest": {
+    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "image_name": "cyberdojofoundation/clangpp_googletest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/clangplusplus-igloo": {
+    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "image_name": "cyberdojofoundation/clangpp_igloo",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/csharp-4.6.1": {
+    "from": "cyberdojofoundation/alpine_glibc",
+    "image_name": "cyberdojofoundation/csharp:4.6.1",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/csharp-moq": {
+    "from": "cyberdojofoundation/csharp:4.6.1",
+    "image_name": "cyberdojofoundation/csharp_moq",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/csharp-nunit": {
+    "from": "cyberdojofoundation/csharp:4.6.1",
+    "image_name": "cyberdojofoundation/csharp_nunit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/csharp-specflow": {
+    "from": "cyberdojofoundation/csharp:4.6.1",
+    "image_name": "cyberdojofoundation/csharp_specflow",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/dee-4.8.4": {
+    "from": "cyberdojofoundation/build-essential",
+    "image_name": "cyberdojofoundation/dee:4.8.4",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/dee-unittest": {
+    "from": "cyberdojofoundation/dee:4.8.4",
+    "image_name": "cyberdojofoundation/d_unittest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/docker-1.12.3": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/docker_bash",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/elixir-1.2.5": {
+    "from": "cyberdojofoundation/alpine_language_base:3.4",
+    "image_name": "cyberdojofoundation/elixir:1.2.5",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/elixir-exunit": {
+    "from": "cyberdojofoundation/elixir:1.2.5",
+    "image_name": "cyberdojofoundation/elixir_exunit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/elm-0.18.0": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/elm:0.18.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/elm-test": {
+    "from": "cyberdojofoundation/elm:0.18.0",
+    "image_name": "cyberdojofoundation/elm_test",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/elm-test-bad-manifest-for-testing": {
+    "from": "cyberdojofoundation/elm-0.18.0",
+    "image_name": null,
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/erlang-19": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/erlang:19",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/erlang-eunit": {
+    "from": "cyberdojofoundation/erlang:19",
+    "image_name": "cyberdojofoundation/erlang_eunit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/fortran-6.3.0": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/fortran-6.3.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/fortran-funit": {
+    "from": "cyberdojofoundation/fortran-6.3.0",
+    "image_name": "cyberdojofoundation/fortran_funit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/fsharp-4.0": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/fsharp:4.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/fsharp-nunit": {
+    "from": "cyberdojofoundation/fsharp:4.0",
+    "image_name": "cyberdojofoundation/fsharp_nunit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gcc-7.1": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gcc:7.1",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gcc-alpine-5.3.0": {
+    "from": "cyberdojofoundation/alpine-language_base:3.4",
+    "image_name": "cyberdojofoundation/gcc-alpine:5.3.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gcc-assert": {
+    "from": "cyberdojofoundation/gcc-alpine:5.3.0",
+    "image_name": "cyberdojofoundation/gcc_assert",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gcc-cgreen": {
+    "from": "cyberdojofoundation/gcc:7.1",
+    "image_name": "cyberdojofoundation/gcc_cgreen",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gcc-cpputest": {
+    "from": "cyberdojofoundation/gcc:7.1",
+    "image_name": "cyberdojofoundation/gcc_cpputest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/git-2.11": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/git_bash",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/go-1.7.4": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/go:1.7.4",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/go-testing": {
+    "from": "cyberdojofoundation/go:1.7.4",
+    "image_name": "cyberdojofoundation/go_testing",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-7.1": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/gplusplus:7.1",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-assert": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gpp_assert",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-boosttest": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gpp_boosttest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-catch": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gpp_catch",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-cgreen": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gpp_cgreen",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-cpputest": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gpp_cpputest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-googlemock": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gpp_googlemock",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-googletest": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gpp_googletest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/gplusplus-igloo": {
+    "from": "cyberdojofoundation/gplusplus:7.1",
+    "image_name": "cyberdojofoundation/gpp_igloo",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/groovy-2.4.12": {
+    "from": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/groovy:2.4.12",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/groovy-junit": {
+    "from": "cyberdojofoundation/groovy:2.4.12",
+    "image_name": "cyberdojofoundation/groovy_junit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/groovy-spock": {
+    "from": "cyberdojofoundation/groovy:2.4.12",
+    "image_name": "cyberdojofoundation/groovy_spock",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/haskell-8.0.2": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/haskell:8.0.2",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/haskell-hunit": {
+    "from": "cyberdojofoundation/haskell:8.0.2",
+    "image_name": "cyberdojofoundation/haskell_hunit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-1.8": {
+    "from": "openjdk:8-jdk-alpine",
+    "image_name": "cyberdojofoundation/java:1.8",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-cucumberbase": {
+    "from": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/java_cucumber_base",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-cucumberpico": {
+    "from": "cyberdojofoundation/java_cucumber_base",
+    "image_name": "cyberdojofoundation/java_cucumber_pico",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-cucumberspring": {
+    "from": "cyberdojofoundation/java_cucumber_base",
+    "image_name": "cyberdojofoundation/java_cucumber_spring",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-jmock": {
+    "from": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/java_jmock",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-junit": {
+    "from": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/java_junit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-mockito": {
+    "from": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/java_mockito",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-powermockito": {
+    "from": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/java_powermockito",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/java-sqlite": {
+    "from": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/java_junit_sqlite",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/javascript-8.4.0": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:14.04",
+    "image_name": "cyberdojofoundation/javascript-node:8.4.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/javascript-assert": {
+    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "image_name": "cyberdojofoundation/javascript-node_assert",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/javascript-assert-jquery": {
+    "from": "cyberdojofoundation/javascript-node_assert",
+    "image_name": "cyberdojofoundation/javascript-node_assert-jquery",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/javascript-cucumber": {
+    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "image_name": "cyberdojofoundation/javascript-node_cucumber",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/javascript-jasmine": {
+    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "image_name": "cyberdojofoundation/javascript-node_jasmine",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/javascript-mocha-chai-sinon": {
+    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "image_name": "cyberdojofoundation/javascript-node_mocha_chai_sinon",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/javascript-qunit-sinon": {
+    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "image_name": "cyberdojofoundation/javascript-node_qunit_sinon",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/kotlin-1.1.3": {
+    "from": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/kotlin:1.1.3",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/kotlin-test": {
+    "from": "cyberdojofoundation/kotlin:1.1.3",
+    "image_name": "cyberdojofoundation/kotlin_kotlintest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/perl-5.24.1": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/perl:5.24.1",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/perl-testsimple": {
+    "from": "cyberdojofoundation/perl:5.24.1",
+    "image_name": "cyberdojofoundation/perl_test_simple",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/php-7.0.18": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/php:7.0.18",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/php-unit": {
+    "from": "cyberdojofoundation/php:7.0.18",
+    "image_name": "cyberdojofoundation/php_phpunit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/python-3.6.1": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/python:3.6.1",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/python-behave": {
+    "from": "cyberdojofoundation/python:3.6.1",
+    "image_name": "cyberdojofoundation/python_behave",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/python-pytest": {
+    "from": "cyberdojofoundation/python:3.6.1",
+    "image_name": "cyberdojofoundation/python_pytest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/python-unittest": {
+    "from": "cyberdojofoundation/python:3.6.1",
+    "image_name": "cyberdojofoundation/python_unittest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/rbase-3.3.2": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/rbase:3.3.2",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/rbase-runit": {
+    "from": "cyberdojofoundation/rbase:3.3.2",
+    "image_name": "cyberdojofoundation/r_runit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/ruby-2.3.1": {
+    "from": "ruby:2.3.1-alpine",
+    "image_name": "cyberdojofoundation/ruby:2.3.1",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/ruby-cucumber": {
+    "from": "cyberdojofoundation/ruby:2.3.1",
+    "image_name": "cyberdojofoundation/ruby_cucumber",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/ruby-minitest": {
+    "from": "cyberdojofoundation/ruby:2.3.1",
+    "image_name": "cyberdojofoundation/ruby_mini_test",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/ruby-rspec": {
+    "from": "cyberdojofoundation/ruby:2.3.1",
+    "image_name": "cyberdojofoundation/ruby_rspec",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/ruby-testunit": {
+    "from": "cyberdojofoundation/ruby:2.3.1",
+    "image_name": "cyberdojofoundation/ruby_test_unit",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/rust-1.17.0": {
+    "from": "alpine:3.6",
+    "image_name": "cyberdojofoundation/rust:1.17.0",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/rust-test": {
+    "from": "cyberdojofoundation/rust:1.17.0",
+    "image_name": "cyberdojofoundation/rust_test",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/swift-3.1": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:14.04",
+    "image_name": "cyberdojofoundation/swift:3.1",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/swift-swordfish": {
+    "from": "cyberdojofoundation/swift_xctest",
+    "image_name": "cyberdojofoundation/swift_swordfish",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/swift-xctest": {
+    "from": "cyberdojofoundation/swift:3.1",
+    "image_name": "cyberdojofoundation/swift_xctest",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/ubuntu-build-essential-14.04": {
+    "from": "ubuntu:14.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential:14.04",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/ubuntu-build-essential-17.04": {
+    "from": "ubuntu:17.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/vhdl-0.31": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:14.04",
+    "image_name": "cyberdojofoundation/vhdl:0.31",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/vhdl-assert": {
+    "from": "cyberdojofoundation/vhdl:0.31",
+    "image_name": "cyberdojofoundation/vhdl_assert",
+    "test_framework": true
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/visual-basic-0.0.0.5943": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/visual-basic:0.0.0.5943",
+    "test_framework": false
+  },
+  "/Users/jonjagger/repos/cyber-dojo-languages/visual-basic-nunit": {
+    "from": "cyberdojofoundation/visual-basic:0.0.0.5943",
+    "image_name": "cyberdojofoundation/visual-basic_nunit",
+    "test_framework": true
+  }
+}
