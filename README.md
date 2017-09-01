@@ -1,1 +1,1 @@
-# show_dependencies
+# image_info.json
