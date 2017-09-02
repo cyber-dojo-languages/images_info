@@ -11,4 +11,6 @@ docker run \
   --env SRC_DIR=${SRC_DIR} \
   --volume=${BASE_DIR}:${BASE_DIR}:ro \
     cyberdojofoundation/images_info \
-      /app/main.rb
+      /app/main.rb > images_info.json
+
+cat images_info.json

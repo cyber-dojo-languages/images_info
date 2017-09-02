@@ -9,7 +9,9 @@ def local_dependencies
     #print '.'
     dir = base_dir + '/' + entry
     args = dir_get_args(dir)
-    triples[dir] = args unless args.nil?
+    unless args.nil?
+      triples[entry] = args
+    end
   end
   triples
 end
@@ -22,15 +24,15 @@ def read_nil(filename)
   File.exists?(filename) ? IO.read(filename) : nil
 end
 
-def get_args(base)
-  docker_filename = base + '/docker/Dockerfile'
+def get_args(dirname)
+  docker_filename = dirname + '/docker/Dockerfile'
   dockerfile = yield(docker_filename)
   if dockerfile.nil?
     return nil
   end
   args = []
-  args << (image_name_filename = base + '/docker/image_name.json')
-  args << (manifest_filename   = base + '/start_point/manifest.json')
+  args << (image_name_filename = dirname + '/docker/image_name.json')
+  args << (manifest_filename   = dirname + '/start_point/manifest.json')
   args << (image_name_file = yield(image_name_filename))
   args << (manifest_file   = yield(manifest_filename))
   {
