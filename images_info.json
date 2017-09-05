@@ -124,13 +124,13 @@
     "image_name": "cyberdojofoundation/csharp_specflow",
     "test_framework": true
   },
-  "dee-4.8.4": {
-    "from": "cyberdojofoundation/build-essential",
-    "image_name": "cyberdojofoundation/dee:4.8.4",
+  "dee-6.3.0": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "image_name": "cyberdojofoundation/dee:6.3.0",
     "test_framework": false
   },
   "dee-unittest": {
-    "from": "cyberdojofoundation/dee:4.8.4",
+    "from": "cyberdojofoundation/dee:6.3.0",
     "image_name": "cyberdojofoundation/d_unittest",
     "test_framework": true
   },
