@@ -134,11 +134,6 @@
     "image_name": "cyberdojofoundation/d_unittest",
     "test_framework": true
   },
-  "docker-1.12.3": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/docker_bash",
-    "test_framework": false
-  },
   "elixir-1.2.5": {
     "from": "cyberdojofoundation/alpine_language_base:3.4",
     "image_name": "cyberdojofoundation/elixir:1.2.5",
