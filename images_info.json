@@ -104,23 +104,23 @@
     "image_name": "cyberdojofoundation/clangpp_igloo",
     "test_framework": true
   },
-  "csharp-4.6.1": {
+  "csharp-5.0.0": {
     "from": "cyberdojofoundation/alpine_glibc",
     "image_name": "cyberdojofoundation/csharp:4.6.1",
     "test_framework": false
   },
   "csharp-moq": {
-    "from": "cyberdojofoundation/csharp:4.6.1",
+    "from": "cyberdojofoundation/csharp:5.0.0",
     "image_name": "cyberdojofoundation/csharp_moq",
     "test_framework": true
   },
   "csharp-nunit": {
-    "from": "cyberdojofoundation/csharp:4.6.1",
+    "from": "cyberdojofoundation/csharp:5.0.0",
     "image_name": "cyberdojofoundation/csharp_nunit",
     "test_framework": true
   },
   "csharp-specflow": {
-    "from": "cyberdojofoundation/csharp:4.6.1",
+    "from": "cyberdojofoundation/csharp:5.0.0",
     "image_name": "cyberdojofoundation/csharp_specflow",
     "test_framework": true
   },
