@@ -106,7 +106,7 @@
   },
   "csharp-5.0.0": {
     "from": "cyberdojofoundation/alpine_glibc",
-    "image_name": "cyberdojofoundation/csharp:4.6.1",
+    "image_name": "cyberdojofoundation/csharp:5.0.0",
     "test_framework": false
   },
   "csharp-moq": {
