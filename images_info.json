@@ -39,13 +39,13 @@
     "image_name": "cyberdojofoundation/bash_unit",
     "test_framework": true
   },
-  "bcpl": {
+  "bcpl-2013": {
     "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/bcpl",
+    "image_name": "cyberdojofoundation/bcpl:2013",
     "test_framework": false
   },
   "bcpl-alltestspassed": {
-    "from": "cyberdojofoundation/bcpl",
+    "from": "cyberdojofoundation/bcpl:2013",
     "image_name": "cyberdojofoundation/bcpl_all_tests_passed",
     "test_framework": true
   },
