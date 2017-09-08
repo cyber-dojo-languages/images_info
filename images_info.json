@@ -105,7 +105,7 @@
     "test_framework": true
   },
   "coffeescript-1.12.7": {
-    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "from": "cyberdojofoundation/ubuntu-build-essential:14.04",
     "image_name": "cyberdojofoundation/coffeescript:1.12.7",
     "test_framework": false
   },
