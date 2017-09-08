@@ -104,6 +104,16 @@
     "image_name": "cyberdojofoundation/clangpp_igloo",
     "test_framework": true
   },
+  "coffeescript-1.12.7": {
+    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "image_name": "cyberdojofoundation/coffeescript:1.12.7",
+    "test_framework": false
+  },
+  "coffeescript-jasmine": {
+    "from": "cyberdojofoundation/coffeescript:1.12.7",
+    "image_name": "cyberdojofoundation/coffeescript_jasmine",
+    "test_framework": true
+  },
   "csharp-5.0.0": {
     "from": "cyberdojofoundation/alpine_glibc",
     "image_name": "cyberdojofoundation/csharp:5.0.0",
