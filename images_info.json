@@ -165,7 +165,7 @@
     "test_framework": false
   },
   "elixir-exunit": {
-    "from": "cyberdojofoundation/elixir:1.2.5",
+    "from": "cyberdojofoundation/elixir:1.4.2",
     "image_name": "cyberdojofoundation/elixir_exunit",
     "test_framework": true
   },
