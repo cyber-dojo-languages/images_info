@@ -4,11 +4,6 @@
     "image_name": "cyberdojofoundation/alpine_glibc",
     "test_framework": false
   },
-  "alpine-language-base-3.4": {
-    "from": "alpine:3.4",
-    "image_name": "cyberdojofoundation/alpine-language_base:3.4",
-    "test_framework": false
-  },
   "alpine-language-base-3.6": {
     "from": "alpine:3.6",
     "image_name": "cyberdojofoundation/alpine-language_base:3.6",
