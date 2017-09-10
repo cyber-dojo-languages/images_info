@@ -164,9 +164,9 @@
     "image_name": "cyberdojofoundation/d_unittest",
     "test_framework": true
   },
-  "elixir-1.2.5": {
-    "from": "cyberdojofoundation/alpine_language_base:3.4",
-    "image_name": "cyberdojofoundation/elixir:1.2.5",
+  "elixir-1.4.2": {
+    "from": "cyberdojofoundation/alpine_language_base:3.6",
+    "image_name": "cyberdojofoundation/elixir:1.4.2",
     "test_framework": false
   },
   "elixir-exunit": {
