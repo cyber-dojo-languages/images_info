@@ -50,7 +50,7 @@
     "test_framework": true
   },
   "chapel-1.15.0": {
-    "from": "cyberdojofoundation/alpine_language_base:3.6",
+    "from": "cyberdojofoundation/alpine-language_base:3.6",
     "image_name": "cyberdojofoundation/chapel:1.15.0",
     "test_framework": false
   },
@@ -160,7 +160,7 @@
     "test_framework": true
   },
   "elixir-1.4.2": {
-    "from": "cyberdojofoundation/alpine_language_base:3.6",
+    "from": "cyberdojofoundation/alpine-language_base:3.6",
     "image_name": "cyberdojofoundation/elixir:1.4.2",
     "test_framework": false
   },
