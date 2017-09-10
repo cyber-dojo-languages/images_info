@@ -224,13 +224,13 @@
     "image_name": "cyberdojofoundation/gcc:7.1",
     "test_framework": false
   },
-  "gcc-alpine-5.3.0": {
-    "from": "cyberdojofoundation/alpine-language_base:3.4",
-    "image_name": "cyberdojofoundation/gcc-alpine:5.3.0",
+  "gcc-alpine-6.3.0": {
+    "from": "cyberdojofoundation/alpine-language_base:3.6",
+    "image_name": "cyberdojofoundation/gcc-alpine:6.3.0",
     "test_framework": false
   },
   "gcc-assert": {
-    "from": "cyberdojofoundation/gcc-alpine:5.3.0",
+    "from": "cyberdojofoundation/gcc-alpine:6.3.0",
     "image_name": "cyberdojofoundation/gcc_assert",
     "test_framework": true
   },
