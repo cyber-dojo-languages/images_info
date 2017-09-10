@@ -9,6 +9,11 @@
     "image_name": "cyberdojofoundation/alpine-language_base:3.4",
     "test_framework": false
   },
+  "alpine-language-base-3.6": {
+    "from": "alpine:3.6",
+    "image_name": "cyberdojofoundation/alpine-language_base:3.6",
+    "test_framework": false
+  },
   "asm-2.12.02": {
     "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
     "image_name": "cyberdojofoundation/nasm:2.12.02",
