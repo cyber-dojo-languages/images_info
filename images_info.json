@@ -1,7 +1,7 @@
 {
-  "alpine-glibc": {
+  "alpine-glibc-3.6": {
     "from": "alpine:3.6",
-    "image_name": "cyberdojofoundation/alpine_glibc",
+    "image_name": "cyberdojofoundation/alpine_glibc:3.6",
     "test_framework": false
   },
   "alpine-language-base-3.6": {
@@ -130,7 +130,7 @@
     "test_framework": true
   },
   "csharp-5.0.0": {
-    "from": "cyberdojofoundation/alpine_glibc",
+    "from": "cyberdojofoundation/alpine_glibc:3.6",
     "image_name": "cyberdojofoundation/csharp:5.0.0",
     "test_framework": false
   },
