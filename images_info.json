@@ -241,7 +241,7 @@
   },
   "git-2.11": {
     "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/git_bash",
+    "image_name": "cyberdojofoundation/git",
     "test_framework": false
   },
   "go-1.7.4": {
