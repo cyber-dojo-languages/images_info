@@ -490,7 +490,7 @@
     "test_framework": true
   },
   "rust-1.17.0": {
-    "from": "alpine:3.6",
+    "from": "alpine:latest",
     "image_name": "cyberdojofoundation/rust:1.17.0",
     "test_framework": false
   },
