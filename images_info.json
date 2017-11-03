@@ -155,7 +155,7 @@
     "test_framework": true
   },
   "elixir-1.4.2": {
-    "from": "cyberdojofoundation/alpine_glibc:3.6",
+    "from": "alpine:latest",
     "image_name": "cyberdojofoundation/elixir:1.4.2",
     "test_framework": false
   },
