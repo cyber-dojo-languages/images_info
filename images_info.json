@@ -220,7 +220,7 @@
     "test_framework": false
   },
   "gcc-alpine-6.3.0": {
-    "from": "cyberdojofoundation/alpine-language_base:3.6",
+    "from": "cyberdojofoundation/alpine_glibc:3.6",
     "image_name": "cyberdojofoundation/gcc-alpine:6.3.0",
     "test_framework": false
   },
