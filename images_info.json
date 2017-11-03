@@ -20,7 +20,7 @@
     "test_framework": true
   },
   "bash-4.3.48": {
-    "from": "cyberdojofoundation/alpine-language_base:3.6",
+    "from": "cyberdojofoundation/alpine_glibc:3.6",
     "image_name": "cyberdojofoundation/bash:4.3.48",
     "test_framework": false
   },
