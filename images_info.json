@@ -389,6 +389,11 @@
     "image_name": "cyberdojofoundation/javascript-node_jasmine",
     "test_framework": true
   },
+  "javascript-cucumber-jasmine": {
+    "from": "cyberdojofoundation/javascript-node_cucumber",
+    "image_name": "cyberdojofoundation/javascript-node_cucumber_jasmine",
+    "test_framework": true
+  },
   "javascript-mocha-chai-sinon": {
     "from": "cyberdojofoundation/javascript-node:8.4.0",
     "image_name": "cyberdojofoundation/javascript-node_mocha_chai_sinon",
