@@ -114,13 +114,13 @@
     "image_name": "cyberdojofoundation/clojure_clojure_test",
     "test_framework": true
   },
-  "coffeescript-2.0.2": {
+  "coffeescript-2.0.3": {
     "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/coffeescript:2.0.2",
+    "image_name": "cyberdojofoundation/coffeescript:2.0.3",
     "test_framework": false
   },
   "coffeescript-jasmine": {
-    "from": "cyberdojofoundation/coffeescript:2.0.2",
+    "from": "cyberdojofoundation/coffeescript:2.0.3",
     "image_name": "cyberdojofoundation/coffeescript_jasmine",
     "test_framework": true
   },
