@@ -234,6 +234,11 @@
     "image_name": "cyberdojofoundation/gcc_cpputest",
     "test_framework": true
   },
+  "gcc-googletest": {
+    "from": "cyberdojofoundation/gpp_googletest",
+    "image_name": "cyberdojofoundation/gcc_googletest",
+    "test_framework": true
+  },
   "git-2.11": {
     "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
     "image_name": "cyberdojofoundation/git",
