@@ -469,28 +469,28 @@
     "image_name": "cyberdojofoundation/r_runit",
     "test_framework": true
   },
-  "ruby-2.4.2": {
+  "ruby-2.4.3": {
     "from": "ruby:alpine",
-    "image_name": "cyberdojofoundation/ruby:2.4.2",
+    "image_name": "cyberdojofoundation/ruby:2.4.3",
     "test_framework": false
   },
   "ruby-cucumber": {
-    "from": "cyberdojofoundation/ruby:2.4.2",
+    "from": "cyberdojofoundation/ruby:2.4.3",
     "image_name": "cyberdojofoundation/ruby_cucumber",
     "test_framework": true
   },
   "ruby-minitest": {
-    "from": "cyberdojofoundation/ruby:2.4.2",
+    "from": "cyberdojofoundation/ruby:2.4.3",
     "image_name": "cyberdojofoundation/ruby_mini_test",
     "test_framework": true
   },
   "ruby-rspec": {
-    "from": "cyberdojofoundation/ruby:2.4.2",
+    "from": "cyberdojofoundation/ruby:2.4.3",
     "image_name": "cyberdojofoundation/ruby_rspec",
     "test_framework": true
   },
   "ruby-testunit": {
-    "from": "cyberdojofoundation/ruby:2.4.2",
+    "from": "cyberdojofoundation/ruby:2.4.3",
     "image_name": "cyberdojofoundation/ruby_test_unit",
     "test_framework": true
   },
