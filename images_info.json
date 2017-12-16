@@ -177,7 +177,7 @@
   "elm-test-bad-manifest-for-testing": {
     "from": "cyberdojofoundation/elm-0.18.0",
     "image_name": null,
-    "test_framework": true
+    "test_framework": "mu"
   },
   "erlang-19": {
     "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
