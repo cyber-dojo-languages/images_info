@@ -191,11 +191,11 @@
   },
   "fortran-6.3.0": {
     "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/fortran-6.3.0",
+    "image_name": "cyberdojofoundation/fortran:6.3.0",
     "test_framework": false
   },
   "fortran-funit": {
-    "from": "cyberdojofoundation/fortran-6.3.0",
+    "from": "cyberdojofoundation/fortran:6.3.0",
     "image_name": "cyberdojofoundation/fortran_funit",
     "test_framework": true
   },
