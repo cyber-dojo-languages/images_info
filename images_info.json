@@ -494,13 +494,13 @@
     "image_name": "cyberdojofoundation/ruby_test_unit",
     "test_framework": true
   },
-  "rust-1.22.1": {
+  "rust-1.23": {
     "from": "alpine:latest",
-    "image_name": "cyberdojofoundation/rust:1.22.1",
+    "image_name": "cyberdojofoundation/rust:1.23",
     "test_framework": false
   },
   "rust-test": {
-    "from": "cyberdojofoundation/rust:1.22.1",
+    "from": "cyberdojofoundation/rust:1.23",
     "image_name": "cyberdojofoundation/rust_test",
     "test_framework": true
   },
