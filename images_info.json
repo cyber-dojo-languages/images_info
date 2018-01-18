@@ -179,13 +179,13 @@
     "image_name": null,
     "test_framework": "mu"
   },
-  "erlang-19": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/erlang:19",
+  "erlang-20": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/erlang:20",
     "test_framework": false
   },
   "erlang-eunit": {
-    "from": "cyberdojofoundation/erlang:19",
+    "from": "cyberdojofoundation/erlang:20",
     "image_name": "cyberdojofoundation/erlang_eunit",
     "test_framework": true
   },
