@@ -200,7 +200,7 @@
     "test_framework": true
   },
   "fsharp-4.0": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/fsharp:4.0",
     "test_framework": false
   },
