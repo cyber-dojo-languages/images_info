@@ -244,13 +244,13 @@
     "image_name": "cyberdojofoundation/git",
     "test_framework": false
   },
-  "go-1.7.4": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/go:1.7.4",
+  "go-1.9.2": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/go:1.9.2",
     "test_framework": false
   },
   "go-testing": {
-    "from": "cyberdojofoundation/go:1.7.4",
+    "from": "cyberdojofoundation/go:1.9.2",
     "image_name": "cyberdojofoundation/go_testing",
     "test_framework": true
   },
