@@ -54,48 +54,48 @@
     "image_name": "cyberdojofoundation/chapel_assert",
     "test_framework": true
   },
-  "clang-4.0.0": {
-    "from": "cyberdojofoundation/clangplusplus:4.0.0",
-    "image_name": "cyberdojofoundation/clang:4.0.0",
+  "clang-5.0.1": {
+    "from": "cyberdojofoundation/clangplusplus:5.0.1",
+    "image_name": "cyberdojofoundation/clang:5.0.1",
     "test_framework": false
   },
   "clang-assert": {
-    "from": "cyberdojofoundation/clang:4.0.0",
+    "from": "cyberdojofoundation/clang:5.0.1",
     "image_name": "cyberdojofoundation/clang_assert",
     "test_framework": true
   },
   "clang-cgreen": {
-    "from": "cyberdojofoundation/clang:4.0.0",
+    "from": "cyberdojofoundation/clang:5.0.1",
     "image_name": "cyberdojofoundation/clang_cgreen",
     "test_framework": true
   },
-  "clangplusplus-4.0.0": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/clangplusplus:4.0.0",
+  "clangplusplus-5.0.1": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/clangplusplus:5.0.1",
     "test_framework": false
   },
   "clangplusplus-assert": {
-    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "from": "cyberdojofoundation/clangplusplus:5.0.1",
     "image_name": "cyberdojofoundation/clangpp_assert",
     "test_framework": true
   },
   "clangplusplus-cgreen": {
-    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "from": "cyberdojofoundation/clangplusplus:5.0.1",
     "image_name": "cyberdojofoundation/clangpp_cgreen",
     "test_framework": true
   },
   "clangplusplus-googlemock": {
-    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "from": "cyberdojofoundation/clangplusplus:5.0.1",
     "image_name": "cyberdojofoundation/clangpp_googlemock",
     "test_framework": true
   },
   "clangplusplus-googletest": {
-    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "from": "cyberdojofoundation/clangplusplus:5.0.1",
     "image_name": "cyberdojofoundation/clangpp_googletest",
     "test_framework": true
   },
   "clangplusplus-igloo": {
-    "from": "cyberdojofoundation/clangplusplus:4.0.0",
+    "from": "cyberdojofoundation/clangplusplus:5.0.1",
     "image_name": "cyberdojofoundation/clangpp_igloo",
     "test_framework": true
   },
