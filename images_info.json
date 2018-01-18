@@ -419,13 +419,13 @@
     "image_name": "cyberdojofoundation/kotlin_kotlintest",
     "test_framework": true
   },
-  "perl-5.24.1": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/perl:5.24.1",
+  "perl-5.26.1": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/perl:5.26.1",
     "test_framework": false
   },
   "perl-testsimple": {
-    "from": "cyberdojofoundation/perl:5.24.1",
+    "from": "cyberdojofoundation/perl:5.26.1",
     "image_name": "cyberdojofoundation/perl_test_simple",
     "test_framework": true
   },
