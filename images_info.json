@@ -315,7 +315,7 @@
     "test_framework": true
   },
   "haskell-8.0.2": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/haskell:8.0.2",
     "test_framework": false
   },
