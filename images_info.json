@@ -440,7 +440,7 @@
     "test_framework": true
   },
   "python-3.6.4": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/python:3.6.4",
     "test_framework": false
   },
