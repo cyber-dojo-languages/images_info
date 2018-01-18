@@ -459,13 +459,13 @@
     "image_name": "cyberdojofoundation/python_unittest",
     "test_framework": true
   },
-  "rbase-3.3.2": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/rbase:3.3.2",
+  "rbase-3.4.3": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/rbase:3.4.3",
     "test_framework": false
   },
   "rbase-runit": {
-    "from": "cyberdojofoundation/rbase:3.3.2",
+    "from": "cyberdojofoundation/rbase:3.4.3",
     "image_name": "cyberdojofoundation/r_runit",
     "test_framework": true
   },
