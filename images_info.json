@@ -239,8 +239,8 @@
     "image_name": "cyberdojofoundation/gcc_googletest",
     "test_framework": true
   },
-  "git-2.11": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+  "git-2.15": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/git",
     "test_framework": false
   },
