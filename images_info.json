@@ -35,7 +35,7 @@
     "test_framework": true
   },
   "bcpl-2013": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/bcpl:2013",
     "test_framework": false
   },
