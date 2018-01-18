@@ -4,13 +4,13 @@
     "image_name": "cyberdojofoundation/alpine_glibc:3.6",
     "test_framework": false
   },
-  "asm-2.12.02": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/nasm:2.12.02",
+  "asm-2.13.02": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/nasm:2.13.02",
     "test_framework": false
   },
   "asm-assert": {
-    "from": "cyberdojofoundation/nasm:2.12.02",
+    "from": "cyberdojofoundation/nasm:2.13.02",
     "image_name": "cyberdojofoundation/nasm_assert",
     "test_framework": true
   },
