@@ -209,9 +209,9 @@
     "image_name": "cyberdojofoundation/fsharp_nunit",
     "test_framework": true
   },
-  "gcc-7.1": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
-    "image_name": "cyberdojofoundation/gcc:7.1",
+  "gcc-7.2": {
+    "from": "cyberdojofoundation/gplusplus:7.2",
+    "image_name": "cyberdojofoundation/gcc:7.2",
     "test_framework": false
   },
   "gcc-alpine-6.3.0": {
@@ -225,12 +225,12 @@
     "test_framework": true
   },
   "gcc-cgreen": {
-    "from": "cyberdojofoundation/gcc:7.1",
+    "from": "cyberdojofoundation/gcc:7.2",
     "image_name": "cyberdojofoundation/gcc_cgreen",
     "test_framework": true
   },
   "gcc-cpputest": {
-    "from": "cyberdojofoundation/gcc:7.1",
+    "from": "cyberdojofoundation/gcc:7.2",
     "image_name": "cyberdojofoundation/gcc_cpputest",
     "test_framework": true
   },
@@ -254,48 +254,48 @@
     "image_name": "cyberdojofoundation/go_testing",
     "test_framework": true
   },
-  "gplusplus-7.1": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/gplusplus:7.1",
+  "gplusplus-7.2": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/gplusplus:7.2",
     "test_framework": false
   },
   "gplusplus-assert": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
+    "from": "cyberdojofoundation/gplusplus:7.2",
     "image_name": "cyberdojofoundation/gpp_assert",
     "test_framework": true
   },
   "gplusplus-boosttest": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
+    "from": "cyberdojofoundation/gplusplus:7.2",
     "image_name": "cyberdojofoundation/gpp_boosttest",
     "test_framework": true
   },
   "gplusplus-catch": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
+    "from": "cyberdojofoundation/gplusplus:7.2",
     "image_name": "cyberdojofoundation/gpp_catch",
     "test_framework": true
   },
   "gplusplus-cgreen": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
+    "from": "cyberdojofoundation/gplusplus:7.2",
     "image_name": "cyberdojofoundation/gpp_cgreen",
     "test_framework": true
   },
   "gplusplus-cpputest": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
+    "from": "cyberdojofoundation/gplusplus:7.2",
     "image_name": "cyberdojofoundation/gpp_cpputest",
     "test_framework": true
   },
   "gplusplus-googlemock": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
+    "from": "cyberdojofoundation/gplusplus:7.2",
     "image_name": "cyberdojofoundation/gpp_googlemock",
     "test_framework": true
   },
   "gplusplus-googletest": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
+    "from": "cyberdojofoundation/gplusplus:7.2",
     "image_name": "cyberdojofoundation/gpp_googletest",
     "test_framework": true
   },
   "gplusplus-igloo": {
-    "from": "cyberdojofoundation/gplusplus:7.1",
+    "from": "cyberdojofoundation/gplusplus:7.2",
     "image_name": "cyberdojofoundation/gpp_igloo",
     "test_framework": true
   },
