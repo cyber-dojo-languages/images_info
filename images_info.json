@@ -550,7 +550,7 @@
     "test_framework": true
   },
   "visual-basic-0.0.0.5943": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/visual-basic:0.0.0.5943",
     "test_framework": false
   },
