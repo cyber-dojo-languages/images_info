@@ -429,13 +429,13 @@
     "image_name": "cyberdojofoundation/perl_test_simple",
     "test_framework": true
   },
-  "php-7.0.22": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
-    "image_name": "cyberdojofoundation/php:7.0.22",
+  "php-7.1.11": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/php:7.1.11",
     "test_framework": false
   },
   "php-unit": {
-    "from": "cyberdojofoundation/php:7.0.22",
+    "from": "cyberdojofoundation/php:7.1.11",
     "image_name": "cyberdojofoundation/php_phpunit",
     "test_framework": true
   },
