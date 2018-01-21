@@ -165,7 +165,7 @@
     "test_framework": true
   },
   "elm-0.18.0": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:17.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
     "image_name": "cyberdojofoundation/elm:0.18.0",
     "test_framework": false
   },
@@ -522,11 +522,6 @@
   "ubuntu-build-essential-14.04": {
     "from": "ubuntu:14.04",
     "image_name": "cyberdojofoundation/ubuntu-build-essential:14.04",
-    "test_framework": false
-  },
-  "ubuntu-build-essential-17.04": {
-    "from": "ubuntu:17.04",
-    "image_name": "cyberdojofoundation/ubuntu-build-essential:17.04",
     "test_framework": false
   },
   "ubuntu-build-essential-18.04": {
