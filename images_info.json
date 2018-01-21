@@ -524,6 +524,11 @@
     "image_name": "cyberdojofoundation/ubuntu-build-essential:14.04",
     "test_framework": false
   },
+  "ubuntu-build-essential-16.04": {
+    "from": "ubuntu:16.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential:16.04",
+    "test_framework": false
+  },
   "ubuntu-build-essential-18.04": {
     "from": "ubuntu:18.04",
     "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
