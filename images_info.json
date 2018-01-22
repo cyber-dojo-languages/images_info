@@ -529,13 +529,13 @@
     "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "test_framework": false
   },
-  "vhdl-0.31": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:14.04",
-    "image_name": "cyberdojofoundation/vhdl:0.31",
+  "vhdl-0.36": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
+    "image_name": "cyberdojofoundation/vhdl:0.36",
     "test_framework": false
   },
   "vhdl-assert": {
-    "from": "cyberdojofoundation/vhdl:0.31",
+    "from": "cyberdojofoundation/vhdl:0.36",
     "image_name": "cyberdojofoundation/vhdl_assert",
     "test_framework": true
   },
