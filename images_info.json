@@ -369,13 +369,13 @@
     "image_name": "cyberdojofoundation/java_junit_sqlite",
     "test_framework": true
   },
-  "javascript-8.4.0": {
+  "javascript-9.4.0": {
     "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
-    "image_name": "cyberdojofoundation/javascript-node:8.4.0",
+    "image_name": "cyberdojofoundation/javascript-node:9.4.0",
     "test_framework": false
   },
   "javascript-assert": {
-    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "from": "cyberdojofoundation/javascript-node:9.4.0",
     "image_name": "cyberdojofoundation/javascript-node_assert",
     "test_framework": true
   },
@@ -385,12 +385,12 @@
     "test_framework": true
   },
   "javascript-cucumber": {
-    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "from": "cyberdojofoundation/javascript-node:9.4.0",
     "image_name": "cyberdojofoundation/javascript-node_cucumber",
     "test_framework": true
   },
   "javascript-jasmine": {
-    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "from": "cyberdojofoundation/javascript-node:9.4.0",
     "image_name": "cyberdojofoundation/javascript-node_jasmine",
     "test_framework": true
   },
@@ -400,12 +400,12 @@
     "test_framework": true
   },
   "javascript-mocha-chai-sinon": {
-    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "from": "cyberdojofoundation/javascript-node:9.4.0",
     "image_name": "cyberdojofoundation/javascript-node_mocha_chai_sinon",
     "test_framework": true
   },
   "javascript-qunit-sinon": {
-    "from": "cyberdojofoundation/javascript-node:8.4.0",
+    "from": "cyberdojofoundation/javascript-node:9.4.0",
     "image_name": "cyberdojofoundation/javascript-node_qunit_sinon",
     "test_framework": true
   },
