@@ -124,18 +124,18 @@
     "image_name": "cyberdojofoundation/coffeescript_jasmine",
     "test_framework": true
   },
-  "csharp-5.0.0": {
+  "csharp-5.4.1.0": {
     "from": "cyberdojofoundation/alpine_glibc:3.6",
-    "image_name": "cyberdojofoundation/csharp:5.0.0",
+    "image_name": "cyberdojofoundation/csharp:5.4.1.0",
     "test_framework": false
   },
   "csharp-moq": {
-    "from": "cyberdojofoundation/csharp:5.0.0",
+    "from": "cyberdojofoundation/csharp:5.4.1.0",
     "image_name": "cyberdojofoundation/csharp_moq",
     "test_framework": true
   },
   "csharp-nunit": {
-    "from": "cyberdojofoundation/csharp:5.0.0",
+    "from": "cyberdojofoundation/csharp:5.4.1.0",
     "image_name": "cyberdojofoundation/csharp_nunit",
     "test_framework": true
   },
