@@ -140,7 +140,7 @@
     "test_framework": true
   },
   "csharp-specflow": {
-    "from": "cyberdojofoundation/csharp:5.0.0",
+    "from": "cyberdojofoundation/csharp:5.4.1.0",
     "image_name": "cyberdojofoundation/csharp_specflow",
     "test_framework": true
   },
