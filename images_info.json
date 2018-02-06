@@ -1,6 +1,6 @@
 {
   "alpine-glibc-3.7": {
-    "from": "alpine:3.7",
+    "from": "alpine:latest",
     "image_name": "cyberdojofoundation/alpine_glibc:3.7",
     "test_framework": false
   },
