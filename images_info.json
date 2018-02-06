@@ -189,13 +189,13 @@
     "image_name": "cyberdojofoundation/erlang_eunit",
     "test_framework": true
   },
-  "fortran-7.2.0": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/fortran:7.2.0",
+  "fortran-7.3.0": {
+    "from": "gcc:latest",
+    "image_name": "cyberdojofoundation/fortran:7.3.0",
     "test_framework": false
   },
   "fortran-funit": {
-    "from": "cyberdojofoundation/fortran:7.2.0",
+    "from": "cyberdojofoundation/fortran:7.3.0",
     "image_name": "cyberdojofoundation/fortran_funit",
     "test_framework": true
   },
