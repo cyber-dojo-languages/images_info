@@ -215,7 +215,7 @@
     "test_framework": false
   },
   "gcc-assert": {
-    "from": "cyberdojofoundation/gcc-alpine:7.3.0",
+    "from": "cyberdojofoundation/gcc:7.3.0",
     "image_name": "cyberdojofoundation/gcc_assert",
     "test_framework": true
   },
