@@ -44,13 +44,13 @@
     "image_name": "cyberdojofoundation/bcpl_all_tests_passed",
     "test_framework": true
   },
-  "chapel-1.15.0": {
+  "chapel-1.16.0": {
     "from": "cyberdojofoundation/alpine_glibc:3.7",
-    "image_name": "cyberdojofoundation/chapel:1.15.0",
+    "image_name": "cyberdojofoundation/chapel:1.16.0",
     "test_framework": false
   },
   "chapel-assert": {
-    "from": "cyberdojofoundation/chapel:1.15.0",
+    "from": "cyberdojofoundation/chapel:1.16.0",
     "image_name": "cyberdojofoundation/chapel_assert",
     "test_framework": true
   },
