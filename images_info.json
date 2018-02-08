@@ -6,18 +6,6 @@
   },
 
 
-  "nasm": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/nasm",
-    "test_framework": false
-  },
-  "nasm-assert": {
-    "from": "cyberdojofoundation/nasm",
-    "image_name": "cyberdojofoundation/nasm_assert",
-    "test_framework": true
-  },
-
-
   "bash": {
     "from": "alpine:latest",
     "image_name": "cyberdojofoundation/bash",
@@ -453,6 +441,18 @@
   "kotlin-test": {
     "from": "cyberdojofoundation/kotlin:1.1.3",
     "image_name": "cyberdojofoundation/kotlin_kotlintest",
+    "test_framework": true
+  },
+
+
+  "nasm": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/nasm",
+    "test_framework": false
+  },
+  "nasm-assert": {
+    "from": "cyberdojofoundation/nasm",
+    "image_name": "cyberdojofoundation/nasm_assert",
     "test_framework": true
   },
 
