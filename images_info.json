@@ -6,13 +6,13 @@
   },
 
 
-  "asm-2.13.02": {
+  "nasm": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/nasm:2.13.02",
+    "image_name": "cyberdojofoundation/nasm",
     "test_framework": false
   },
-  "asm-assert": {
-    "from": "cyberdojofoundation/nasm:2.13.02",
+  "nasm-assert": {
+    "from": "cyberdojofoundation/nasm:latest",
     "image_name": "cyberdojofoundation/nasm_assert",
     "test_framework": true
   },
