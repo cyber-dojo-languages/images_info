@@ -40,13 +40,13 @@
   },
 
 
-  "chapel-1.16.0": {
+  "chapel": {
     "from": "cyberdojofoundation/alpine_glibc:3.7",
-    "image_name": "cyberdojofoundation/chapel:1.16.0",
+    "image_name": "cyberdojofoundation/chapel",
     "test_framework": false
   },
   "chapel-assert": {
-    "from": "cyberdojofoundation/chapel:1.16.0",
+    "from": "cyberdojofoundation/chapel",
     "image_name": "cyberdojofoundation/chapel_assert",
     "test_framework": true
   },
