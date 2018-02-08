@@ -28,13 +28,13 @@
   },
 
 
-  "bcpl-2013": {
+  "bcpl": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/bcpl:2013",
+    "image_name": "cyberdojofoundation/bcpl",
     "test_framework": false
   },
   "bcpl-alltestspassed": {
-    "from": "cyberdojofoundation/bcpl:2013",
+    "from": "cyberdojofoundation/bcpl",
     "image_name": "cyberdojofoundation/bcpl_all_tests_passed",
     "test_framework": true
   },
