@@ -101,18 +101,18 @@
   },
 
 
-  "clojure-1.8.0": {
+  "clojure": {
     "from": "clojure:lein-2.7.1-alpine",
-    "image_name": "cyberdojofoundation/clojure:1.8.0",
+    "image_name": "cyberdojofoundation/clojure",
     "test_framework": false
   },
   "clojure-midje": {
-    "from": "cyberdojofoundation/clojure:1.8.0",
+    "from": "cyberdojofoundation/clojure",
     "image_name": "cyberdojofoundation/clojure_midje",
     "test_framework": true
   },
   "clojure-test": {
-    "from": "cyberdojofoundation/clojure:1.8.0",
+    "from": "cyberdojofoundation/clojure",
     "image_name": "cyberdojofoundation/clojure_clojure_test",
     "test_framework": true
   },
