@@ -193,13 +193,13 @@
   },
 
 
-  "erlang-20": {
+  "erlang": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/erlang:20",
+    "image_name": "cyberdojofoundation/erlang",
     "test_framework": false
   },
   "erlang-eunit": {
-    "from": "cyberdojofoundation/erlang:20",
+    "from": "cyberdojofoundation/erlang",
     "image_name": "cyberdojofoundation/erlang_eunit",
     "test_framework": true
   },
