@@ -229,28 +229,28 @@
   },
 
 
-  "gcc-7.3.0": {
+  "gcc": {
     "from": "gcc:latest",
-    "image_name": "cyberdojofoundation/gcc:7.3.0",
+    "image_name": "cyberdojofoundation/gcc",
     "test_framework": false
   },
   "gcc-assert": {
-    "from": "cyberdojofoundation/gcc:7.3.0",
+    "from": "cyberdojofoundation/gcc",
     "image_name": "cyberdojofoundation/gcc_assert",
     "test_framework": true
   },
   "gcc-cgreen": {
-    "from": "cyberdojofoundation/gcc:7.3.0",
+    "from": "cyberdojofoundation/gcc",
     "image_name": "cyberdojofoundation/gcc_cgreen",
     "test_framework": true
   },
   "gcc-cpputest": {
-    "from": "cyberdojofoundation/gcc:7.3.0",
+    "from": "cyberdojofoundation/gcc",
     "image_name": "cyberdojofoundation/gcc_cpputest",
     "test_framework": true
   },
   "gcc-googletest": {
-    "from": "cyberdojofoundation/gcc:7.3.0",
+    "from": "cyberdojofoundation/gcc",
     "image_name": "cyberdojofoundation/gcc_googletest",
     "test_framework": true
   },
