@@ -14,18 +14,18 @@
     "image_name": "cyberdojofoundation/nasm_assert",
     "test_framework": true
   },
-  "bash-4.4.12": {
-    "from": "cyberdojofoundation/alpine_glibc:3.7",
-    "image_name": "cyberdojofoundation/bash:4.4.12",
+  "bash-4.4.19": {
+    "from": "alpine:latest",
+    "image_name": "cyberdojofoundation/bash:4.4.19",
     "test_framework": false
   },
   "bash-bats": {
-    "from": "cyberdojofoundation/bash:4.4.12",
+    "from": "cyberdojofoundation/bash:4.4.19",
     "image_name": "cyberdojofoundation/bash_bats",
     "test_framework": true
   },
   "bash-shunit2": {
-    "from": "cyberdojofoundation/bash:4.4.12",
+    "from": "cyberdojofoundation/bash:4.4.19",
     "image_name": "cyberdojofoundation/bash_shunit2",
     "test_framework": true
   },
