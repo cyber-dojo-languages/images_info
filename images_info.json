@@ -130,23 +130,23 @@
   },
 
 
-  "csharp-5.4.1.0": {
+  "csharp": {
     "from": "cyberdojofoundation/alpine_glibc:3.7",
-    "image_name": "cyberdojofoundation/csharp:5.4.1.0",
+    "image_name": "cyberdojofoundation/csharp",
     "test_framework": false
   },
   "csharp-moq": {
-    "from": "cyberdojofoundation/csharp:5.4.1.0",
+    "from": "cyberdojofoundation/csharp",
     "image_name": "cyberdojofoundation/csharp_moq",
     "test_framework": true
   },
   "csharp-nunit": {
-    "from": "cyberdojofoundation/csharp:5.4.1.0",
+    "from": "cyberdojofoundation/csharp",
     "image_name": "cyberdojofoundation/csharp_nunit",
     "test_framework": true
   },
   "csharp-specflow": {
-    "from": "cyberdojofoundation/csharp:5.4.1.0",
+    "from": "cyberdojofoundation/csharp",
     "image_name": "cyberdojofoundation/csharp_specflow",
     "test_framework": true
   },
