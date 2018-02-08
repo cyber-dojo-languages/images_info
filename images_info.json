@@ -256,13 +256,13 @@
   },
 
 
-  "go-1.9.4": {
+  "go": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/go:1.9.4",
+    "image_name": "cyberdojofoundation/go",
     "test_framework": false
   },
   "go-testing": {
-    "from": "cyberdojofoundation/go:1.9.4",
+    "from": "cyberdojofoundation/go",
     "image_name": "cyberdojofoundation/go_testing",
     "test_framework": true
   },
