@@ -164,13 +164,13 @@
   },
 
 
-  "elixir-1.5.2": {
+  "elixir": {
     "from": "alpine:latest",
-    "image_name": "cyberdojofoundation/elixir:1.5.2",
+    "image_name": "cyberdojofoundation/elixir",
     "test_framework": false
   },
   "elixir-exunit": {
-    "from": "cyberdojofoundation/elixir:1.5.2",
+    "from": "cyberdojofoundation/elixir",
     "image_name": "cyberdojofoundation/elixir_exunit",
     "test_framework": true
   },
