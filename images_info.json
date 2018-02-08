@@ -217,13 +217,13 @@
   },
 
 
-  "fsharp-4.0": {
+  "fsharp": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/fsharp:4.0",
+    "image_name": "cyberdojofoundation/fsharp",
     "test_framework": false
   },
   "fsharp-nunit": {
-    "from": "cyberdojofoundation/fsharp:4.0",
+    "from": "cyberdojofoundation/fsharp",
     "image_name": "cyberdojofoundation/fsharp_nunit",
     "test_framework": true
   },
