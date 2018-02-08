@@ -118,13 +118,13 @@
   },
 
 
-  "coffeescript-2.2.1": {
+  "coffeescript": {
     "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
-    "image_name": "cyberdojofoundation/coffeescript:2.2.1",
+    "image_name": "cyberdojofoundation/coffeescript",
     "test_framework": false
   },
   "coffeescript-jasmine": {
-    "from": "cyberdojofoundation/coffeescript:2.2.1",
+    "from": "cyberdojofoundation/coffeescript",
     "image_name": "cyberdojofoundation/coffeescript_jasmine",
     "test_framework": true
   },
