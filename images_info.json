@@ -205,13 +205,13 @@
   },
 
 
-  "fortran-7.3.0": {
+  "fortran": {
     "from": "gcc:latest",
-    "image_name": "cyberdojofoundation/fortran:7.3.0",
+    "image_name": "cyberdojofoundation/fortran",
     "test_framework": false
   },
   "fortran-funit": {
-    "from": "cyberdojofoundation/fortran:7.3.0",
+    "from": "cyberdojofoundation/fortran",
     "image_name": "cyberdojofoundation/fortran_funit",
     "test_framework": true
   },
