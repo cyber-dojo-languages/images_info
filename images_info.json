@@ -316,7 +316,7 @@
 
 
   "groovy": {
-    "from": "cyberdojofoundation/java:1.8",
+    "from": "openjdk:8-jdk-alpine",
     "image_name": "cyberdojofoundation/groovy",
     "test_framework": false
   },
@@ -332,13 +332,13 @@
   },
 
 
-  "haskell-8.0.2": {
+  "haskell": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/haskell:8.0.2",
+    "image_name": "cyberdojofoundation/haskell",
     "test_framework": false
   },
   "haskell-hunit": {
-    "from": "cyberdojofoundation/haskell:8.0.2",
+    "from": "cyberdojofoundation/haskell",
     "image_name": "cyberdojofoundation/haskell_hunit",
     "test_framework": true
   },
