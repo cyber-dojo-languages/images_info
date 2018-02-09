@@ -189,18 +189,18 @@
   },
 
 
-  "elm-0.18.0": {
+  "elm": {
     "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
-    "image_name": "cyberdojofoundation/elm:0.18.0",
+    "image_name": "cyberdojofoundation/elm",
     "test_framework": false
   },
   "elm-test": {
-    "from": "cyberdojofoundation/elm:0.18.0",
+    "from": "cyberdojofoundation/elm",
     "image_name": "cyberdojofoundation/elm_test",
     "test_framework": true
   },
   "elm-test-bad-manifest-for-testing": {
-    "from": "cyberdojofoundation/elm-0.18.0",
+    "from": "cyberdojofoundation/elm",
     "image_name": null,
     "test_framework": "mu"
   },
