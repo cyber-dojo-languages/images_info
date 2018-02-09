@@ -70,7 +70,7 @@
 
 
   "clangplusplus": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
     "image_name": "cyberdojofoundation/clangplusplus",
     "test_framework": false
   },
