@@ -165,12 +165,12 @@
   },
 
 
-  "dee": {
+  "d": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/dee",
     "test_framework": false
   },
-  "dee-unittest": {
+  "d-unittest": {
     "from": "cyberdojofoundation/dee",
     "image_name": "cyberdojofoundation/d_unittest",
     "test_framework": true
