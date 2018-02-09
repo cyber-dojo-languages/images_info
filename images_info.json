@@ -1,9 +1,22 @@
 {
-  "alpine-glibc-3.7": {
+  "alpine-glibc": {
     "from": "alpine:latest",
-    "image_name": "cyberdojofoundation/alpine_glibc:3.7",
+    "image_name": "cyberdojofoundation/alpine_glibc",
     "test_framework": false
   },
+  "ubuntu-build-essential-16.04": {
+    "from": "ubuntu:16.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential:16.04",
+    "test_framework": false
+  },
+  "ubuntu-build-essential-18.04": {
+    "from": "ubuntu:18.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "test_framework": false
+  },
+
+
+
 
 
   "bash": {
@@ -41,7 +54,7 @@
 
 
   "chapel": {
-    "from": "cyberdojofoundation/alpine_glibc:3.7",
+    "from": "cyberdojofoundation/alpine_glibc",
     "image_name": "cyberdojofoundation/chapel",
     "test_framework": false
   },
@@ -131,7 +144,7 @@
 
 
   "csharp": {
-    "from": "cyberdojofoundation/alpine_glibc:3.7",
+    "from": "cyberdojofoundation/alpine_glibc",
     "image_name": "cyberdojofoundation/csharp",
     "test_framework": false
   },
@@ -568,18 +581,6 @@
     "from": "cyberdojofoundation/swift_xctest",
     "image_name": "cyberdojofoundation/swift_swordfish",
     "test_framework": true
-  },
-
-
-  "ubuntu-build-essential-16.04": {
-    "from": "ubuntu:16.04",
-    "image_name": "cyberdojofoundation/ubuntu-build-essential:16.04",
-    "test_framework": false
-  },
-  "ubuntu-build-essential-18.04": {
-    "from": "ubuntu:18.04",
-    "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "test_framework": false
   },
 
 
