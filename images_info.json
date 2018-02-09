@@ -344,13 +344,13 @@
   },
 
 
-  "java-1.8": {
+  "java": {
     "from": "openjdk:8-jdk-alpine",
-    "image_name": "cyberdojofoundation/java:1.8",
+    "image_name": "cyberdojofoundation/java",
     "test_framework": false
   },
   "java-cucumberbase": {
-    "from": "cyberdojofoundation/java:1.8",
+    "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_cucumber_base",
     "test_framework": false
   },
@@ -365,27 +365,27 @@
     "test_framework": true
   },
   "java-jmock": {
-    "from": "cyberdojofoundation/java:1.8",
+    "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_jmock",
     "test_framework": true
   },
   "java-junit": {
-    "from": "cyberdojofoundation/java:1.8",
+    "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_junit",
     "test_framework": true
   },
   "java-mockito": {
-    "from": "cyberdojofoundation/java:1.8",
+    "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_mockito",
     "test_framework": true
   },
   "java-powermockito": {
-    "from": "cyberdojofoundation/java:1.8",
+    "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_powermockito",
     "test_framework": true
   },
   "java-sqlite": {
-    "from": "cyberdojofoundation/java:1.8",
+    "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_junit_sqlite",
     "test_framework": true
   },
