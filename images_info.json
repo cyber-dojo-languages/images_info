@@ -469,13 +469,13 @@
   },
 
 
-  "php-7.1.11": {
+  "php": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/php:7.1.11",
+    "image_name": "cyberdojofoundation/php",
     "test_framework": false
   },
   "php-unit": {
-    "from": "cyberdojofoundation/php:7.1.11",
+    "from": "cyberdojofoundation/php",
     "image_name": "cyberdojofoundation/php_phpunit",
     "test_framework": true
   },
