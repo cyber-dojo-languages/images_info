@@ -457,13 +457,13 @@
   },
 
 
-  "perl-5.26.1": {
+  "perl": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/perl:5.26.1",
+    "image_name": "cyberdojofoundation/perl",
     "test_framework": false
   },
   "perl-testsimple": {
-    "from": "cyberdojofoundation/perl:5.26.1",
+    "from": "cyberdojofoundation/perl",
     "image_name": "cyberdojofoundation/perl_test_simple",
     "test_framework": true
   },
