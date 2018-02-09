@@ -583,13 +583,13 @@
   },
 
 
-  "vhdl-0.36": {
+  "vhdl": {
     "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
-    "image_name": "cyberdojofoundation/vhdl:0.36",
+    "image_name": "cyberdojofoundation/vhdl",
     "test_framework": false
   },
   "vhdl-assert": {
-    "from": "cyberdojofoundation/vhdl:0.36",
+    "from": "cyberdojofoundation/vhdl",
     "image_name": "cyberdojofoundation/vhdl_assert",
     "test_framework": true
   },
