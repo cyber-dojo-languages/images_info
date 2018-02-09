@@ -315,18 +315,18 @@
   },
 
 
-  "groovy-2.4.12": {
+  "groovy": {
     "from": "cyberdojofoundation/java:1.8",
-    "image_name": "cyberdojofoundation/groovy:2.4.12",
+    "image_name": "cyberdojofoundation/groovy",
     "test_framework": false
   },
   "groovy-junit": {
-    "from": "cyberdojofoundation/groovy:2.4.12",
+    "from": "cyberdojofoundation/groovy",
     "image_name": "cyberdojofoundation/groovy_junit",
     "test_framework": true
   },
   "groovy-spock": {
-    "from": "cyberdojofoundation/groovy:2.4.12",
+    "from": "cyberdojofoundation/groovy",
     "image_name": "cyberdojofoundation/groovy_spock",
     "test_framework": true
   },
