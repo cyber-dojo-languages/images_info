@@ -433,13 +433,13 @@
   },
 
 
-  "kotlin-1.1.3": {
-    "from": "cyberdojofoundation/java:1.8",
-    "image_name": "cyberdojofoundation/kotlin:1.1.3",
+  "kotlin": {
+    "from": "openjdk:8-jdk-alpine",
+    "image_name": "cyberdojofoundation/kotlin",
     "test_framework": false
   },
   "kotlin-test": {
-    "from": "cyberdojofoundation/kotlin:1.1.3",
+    "from": "cyberdojofoundation/kotlin",
     "image_name": "cyberdojofoundation/kotlin_kotlintest",
     "test_framework": true
   },
