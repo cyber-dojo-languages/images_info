@@ -52,18 +52,18 @@
   },
 
 
-  "clang-5.0.1": {
-    "from": "cyberdojofoundation/clangplusplus:5.0.1",
-    "image_name": "cyberdojofoundation/clang:5.0.1",
+  "clang": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/clang",
     "test_framework": false
   },
   "clang-assert": {
-    "from": "cyberdojofoundation/clang:5.0.1",
+    "from": "cyberdojofoundation/clang",
     "image_name": "cyberdojofoundation/clang_assert",
     "test_framework": true
   },
   "clang-cgreen": {
-    "from": "cyberdojofoundation/clang:5.0.1",
+    "from": "cyberdojofoundation/clang",
     "image_name": "cyberdojofoundation/clang_cgreen",
     "test_framework": true
   },
