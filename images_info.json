@@ -503,13 +503,13 @@
   },
 
 
-  "rbase-3.4.3": {
+  "rbase": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/rbase:3.4.3",
+    "image_name": "cyberdojofoundation/rbase",
     "test_framework": false
   },
   "rbase-runit": {
-    "from": "cyberdojofoundation/rbase:3.4.3",
+    "from": "cyberdojofoundation/rbase",
     "image_name": "cyberdojofoundation/r_runit",
     "test_framework": true
   },
