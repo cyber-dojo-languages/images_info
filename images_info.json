@@ -595,13 +595,13 @@
   },
 
 
-  "visual-basic-0.0.0.5943": {
+  "visual-basic": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/visual-basic:0.0.0.5943",
+    "image_name": "cyberdojofoundation/visual-basic",
     "test_framework": false
   },
   "visual-basic-nunit": {
-    "from": "cyberdojofoundation/visual-basic:0.0.0.5943",
+    "from": "cyberdojofoundation/visual-basic",
     "image_name": "cyberdojofoundation/visual-basic_nunit",
     "test_framework": true
   }
