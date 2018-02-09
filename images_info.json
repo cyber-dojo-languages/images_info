@@ -542,13 +542,13 @@
   },
 
 
-  "rust-1.23": {
+  "rust": {
     "from": "alpine:latest",
-    "image_name": "cyberdojofoundation/rust:1.23",
+    "image_name": "cyberdojofoundation/rust",
     "test_framework": false
   },
   "rust-test": {
-    "from": "cyberdojofoundation/rust:1.23",
+    "from": "cyberdojofoundation/rust",
     "image_name": "cyberdojofoundation/rust_test",
     "test_framework": true
   },
