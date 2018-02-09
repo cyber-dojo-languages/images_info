@@ -554,13 +554,13 @@
   },
 
 
-  "swift-4.0.3": {
+  "swift": {
     "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
-    "image_name": "cyberdojofoundation/swift:4.0.3",
+    "image_name": "cyberdojofoundation/swift",
     "test_framework": false
   },
   "swift-xctest": {
-    "from": "cyberdojofoundation/swift:4.0.3",
+    "from": "cyberdojofoundation/swift",
     "image_name": "cyberdojofoundation/swift_xctest",
     "test_framework": true
   },
