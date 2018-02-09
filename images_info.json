@@ -516,12 +516,12 @@
   },
 
 
-  "rbase": {
+  "r": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/rbase",
     "test_framework": false
   },
-  "rbase-runit": {
+  "r-runit": {
     "from": "cyberdojofoundation/rbase",
     "image_name": "cyberdojofoundation/r_runit",
     "test_framework": true
