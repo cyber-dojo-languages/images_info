@@ -481,23 +481,23 @@
   },
 
 
-  "python-3.6.4": {
+  "python": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/python:3.6.4",
+    "image_name": "cyberdojofoundation/python",
     "test_framework": false
   },
   "python-behave": {
-    "from": "cyberdojofoundation/python:3.6.4",
+    "from": "cyberdojofoundation/python",
     "image_name": "cyberdojofoundation/python_behave",
     "test_framework": true
   },
   "python-pytest": {
-    "from": "cyberdojofoundation/python:3.6.4",
+    "from": "cyberdojofoundation/python",
     "image_name": "cyberdojofoundation/python_pytest",
     "test_framework": true
   },
   "python-unittest": {
-    "from": "cyberdojofoundation/python:3.6.4",
+    "from": "cyberdojofoundation/python",
     "image_name": "cyberdojofoundation/python_unittest",
     "test_framework": true
   },
