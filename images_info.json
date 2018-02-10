@@ -567,6 +567,18 @@
   },
 
 
+  "scala": {
+    "from": "openjdk:8-alpine",
+    "image_name": "cyberdojofoundation/scala",
+    "test_framework": false
+  },
+  "scala-test": {
+    "from": "cyberdojofoundation/scala",
+    "image_name": "cyberdojofoundation/scala_scalatest",
+    "test_framework": true
+  },
+
+
   "swift": {
     "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
     "image_name": "cyberdojofoundation/swift",
