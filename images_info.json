@@ -20,7 +20,7 @@
 
 
   "bash": {
-    "from": "alpine:latest",
+    "from": "koalaman/shellcheck-alpine",
     "image_name": "cyberdojofoundation/bash",
     "test_framework": false
   },
