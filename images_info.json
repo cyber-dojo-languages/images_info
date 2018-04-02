@@ -499,6 +499,11 @@
     "image_name": "cyberdojofoundation/python",
     "test_framework": false
   },
+  "python-assert": {
+    "from": "cyberdojofoundation/python",
+    "image_name": "cyberdojofoundation/python_assert",
+    "test_framework": true
+  },
   "python-behave": {
     "from": "cyberdojofoundation/python",
     "image_name": "cyberdojofoundation/python_behave",
