@@ -495,7 +495,7 @@
 
 
   "python": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "python",
     "image_name": "cyberdojofoundation/python",
     "test_framework": false
   },
