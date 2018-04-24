@@ -362,6 +362,11 @@
     "image_name": "cyberdojofoundation/java",
     "test_framework": false
   },
+  "java-approval": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_approval",
+    "test_framework": true
+  },
   "java-cucumberbase": {
     "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_cucumber_base",
