@@ -539,7 +539,7 @@
     "test_framework": false
   },
   "ruby-approval": {
-    "from": "cyberdojofoundation/java",
+    "from": "cyberdojofoundation/ruby",
     "image_name": "cyberdojofoundation/ruby_approval",
     "test_framework": true
   },
