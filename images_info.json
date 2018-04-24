@@ -538,6 +538,11 @@
     "image_name": "cyberdojofoundation/ruby",
     "test_framework": false
   },
+  "ruby-approval": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/ruby_approval",
+    "test_framework": true
+  },
   "ruby-cucumber": {
     "from": "cyberdojofoundation/ruby",
     "image_name": "cyberdojofoundation/ruby_cucumber",
