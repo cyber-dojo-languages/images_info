@@ -372,11 +372,6 @@
     "image_name": "cyberdojofoundation/java_cucumber_base",
     "test_framework": false
   },
-  "java-cucumber3base": {
-    "from": "cyberdojofoundation/java",
-    "image_name": "cyberdojofoundation/java_cucumber3_base",
-    "test_framework": false
-  },
   "java-cucumberpico": {
     "from": "cyberdojofoundation/java_cucumber_base",
     "image_name": "cyberdojofoundation/java_cucumber_pico",
@@ -385,6 +380,16 @@
   "java-cucumberspring": {
     "from": "cyberdojofoundation/java_cucumber_base",
     "image_name": "cyberdojofoundation/java_cucumber_spring",
+    "test_framework": true
+  },
+  "java-cucumber3base": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_cucumber3_base",
+    "test_framework": false
+  },
+  "java-cucumber3spring": {
+    "from": "cyberdojofoundation/java_cucumber3_base",
+    "image_name": "cyberdojofoundation/java_cucumber3_spring",
     "test_framework": true
   },
   "java-jmock": {
