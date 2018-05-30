@@ -375,7 +375,7 @@
   "java-cucumber3base": {
     "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_cucumber3_base",
-    "test_framework": "false"
+    "test_framework": false
   },
   "java-cucumberpico": {
     "from": "cyberdojofoundation/java_cucumber_base",
