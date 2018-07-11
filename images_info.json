@@ -622,7 +622,7 @@
 
 
   "vhdl": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/vhdl",
     "test_framework": false
   },
