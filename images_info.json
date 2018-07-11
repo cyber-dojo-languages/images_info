@@ -189,21 +189,6 @@
   },
 
 
-  "elm": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
-    "image_name": "cyberdojofoundation/elm",
-    "test_framework": false
-  },
-  "elm-test": {
-    "from": "cyberdojofoundation/elm",
-    "image_name": "cyberdojofoundation/elm_test",
-    "test_framework": true
-  },
-  "elm-test-bad-manifest-for-testing": {
-    "from": "cyberdojofoundation/elm",
-    "image_name": null,
-    "test_framework": "mu"
-  },
 
 
   "erlang": {
@@ -591,17 +576,6 @@
     "test_framework": true
   },
 
-
-  "scala": {
-    "from": "openjdk:8-alpine",
-    "image_name": "cyberdojofoundation/scala",
-    "test_framework": false
-  },
-  "scala-test": {
-    "from": "cyberdojofoundation/scala",
-    "image_name": "cyberdojofoundation/scala_scalatest",
-    "test_framework": true
-  },
 
 
   "swift": {
