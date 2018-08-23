@@ -439,6 +439,11 @@
     "image_name": "cyberdojofoundation/javascript-node_mocha_chai_sinon",
     "test_framework": true
   },
+  "javascript-cucumber-mocha": {
+    "from": "cyberdojofoundation/javascript-node_cucumber",
+    "image_name": "cyberdojofoundation/javascript-node_cucumber_mocha",
+    "test_framework": true
+  },
   "javascript-qunit-sinon": {
     "from": "cyberdojofoundation/javascript-node",
     "image_name": "cyberdojofoundation/javascript-node_qunit_sinon",
