@@ -296,6 +296,11 @@
     "image_name": "cyberdojofoundation/gpp_cpputest",
     "test_framework": true
   },
+  "gplusplus-cucumber": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_cucumber_gtest",
+    "test_framework": true
+  },
   "gplusplus-googlemock": {
     "from": "cyberdojofoundation/gplusplus",
     "image_name": "cyberdojofoundation/gpp_googlemock",
