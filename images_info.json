@@ -1,9 +1,4 @@
 {
-  "alpine-glibc": {
-    "from": "alpine:latest",
-    "image_name": "cyberdojofoundation/alpine_glibc",
-    "test_framework": false
-  },
   "ubuntu-build-essential-16.04": {
     "from": "ubuntu:16.04",
     "image_name": "cyberdojofoundation/ubuntu-build-essential:16.04",
@@ -14,11 +9,31 @@
     "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "test_framework": false
   },
-
-
-
-
-
+  "vhdl": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/vhdl",
+    "test_framework": false
+  },
+  "vhdl-assert": {
+    "from": "cyberdojofoundation/vhdl",
+    "image_name": "cyberdojofoundation/vhdl_assert",
+    "test_framework": true
+  },
+  "visual-basic": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/visual-basic",
+    "test_framework": false
+  },
+  "visual-basic-nunit": {
+    "from": "cyberdojofoundation/visual-basic",
+    "image_name": "cyberdojofoundation/visual-basic_nunit",
+    "test_framework": true
+  },
+  "alpine-glibc": {
+    "from": "alpine:latest",
+    "image_name": "cyberdojofoundation/alpine_glibc",
+    "test_framework": false
+  },
   "bash": {
     "from": "koalaman/shellcheck-alpine",
     "image_name": "cyberdojofoundation/bash",
@@ -39,8 +54,6 @@
     "image_name": "cyberdojofoundation/bash_unit",
     "test_framework": true
   },
-
-
   "bcpl": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/bcpl",
@@ -51,8 +64,6 @@
     "image_name": "cyberdojofoundation/bcpl_all_tests_passed",
     "test_framework": true
   },
-
-
   "chapel": {
     "from": "cyberdojofoundation/alpine_glibc",
     "image_name": "cyberdojofoundation/chapel",
@@ -63,8 +74,6 @@
     "image_name": "cyberdojofoundation/chapel_assert",
     "test_framework": true
   },
-
-
   "clang": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/clang",
@@ -80,8 +89,6 @@
     "image_name": "cyberdojofoundation/clang_cgreen",
     "test_framework": true
   },
-
-
   "clangplusplus": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/clangplusplus",
@@ -112,8 +119,6 @@
     "image_name": "cyberdojofoundation/clangpp_igloo",
     "test_framework": true
   },
-
-
   "clojure": {
     "from": "clojure:lein-2.7.1-alpine",
     "image_name": "cyberdojofoundation/clojure",
@@ -129,8 +134,6 @@
     "image_name": "cyberdojofoundation/clojure_clojure_test",
     "test_framework": true
   },
-
-
   "coffeescript": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/coffeescript",
@@ -141,8 +144,6 @@
     "image_name": "cyberdojofoundation/coffeescript_jasmine",
     "test_framework": true
   },
-
-
   "csharp": {
     "from": "cyberdojofoundation/alpine_glibc",
     "image_name": "cyberdojofoundation/csharp",
@@ -163,8 +164,6 @@
     "image_name": "cyberdojofoundation/csharp_specflow",
     "test_framework": true
   },
-
-
   "d": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/dee",
@@ -175,8 +174,6 @@
     "image_name": "cyberdojofoundation/d_unittest",
     "test_framework": true
   },
-
-
   "elixir": {
     "from": "alpine:latest",
     "image_name": "cyberdojofoundation/elixir",
@@ -187,10 +184,21 @@
     "image_name": "cyberdojofoundation/elixir_exunit",
     "test_framework": true
   },
-
-
-
-
+  "elm": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
+    "image_name": "cyberdojofoundation/elm",
+    "test_framework": false
+  },
+  "elm-test": {
+    "from": "cyberdojofoundation/elm",
+    "image_name": "cyberdojofoundation/elm_test",
+    "test_framework": true
+  },
+  "elm-test-bad-manifest-for-testing": {
+    "from": "cyberdojofoundation/elm",
+    "image_name": null,
+    "test_framework": true
+  },
   "erlang": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/erlang",
@@ -201,8 +209,6 @@
     "image_name": "cyberdojofoundation/erlang_eunit",
     "test_framework": true
   },
-
-
   "fortran": {
     "from": "gcc:latest",
     "image_name": "cyberdojofoundation/fortran",
@@ -213,8 +219,6 @@
     "image_name": "cyberdojofoundation/fortran_funit",
     "test_framework": true
   },
-
-
   "fsharp": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/fsharp",
@@ -225,8 +229,6 @@
     "image_name": "cyberdojofoundation/fsharp_nunit",
     "test_framework": true
   },
-
-
   "gcc": {
     "from": "gcc:latest",
     "image_name": "cyberdojofoundation/gcc",
@@ -252,8 +254,6 @@
     "image_name": "cyberdojofoundation/gcc_googletest",
     "test_framework": true
   },
-
-
   "go": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/go",
@@ -264,8 +264,6 @@
     "image_name": "cyberdojofoundation/go_testing",
     "test_framework": true
   },
-
-
   "gplusplus": {
     "from": "gcc:latest",
     "image_name": "cyberdojofoundation/gplusplus",
@@ -316,8 +314,6 @@
     "image_name": "cyberdojofoundation/gpp_igloo",
     "test_framework": true
   },
-
-
   "groovy": {
     "from": "openjdk:8-jdk-alpine",
     "image_name": "cyberdojofoundation/groovy",
@@ -333,8 +329,6 @@
     "image_name": "cyberdojofoundation/groovy_spock",
     "test_framework": true
   },
-
-
   "haskell": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/haskell",
@@ -345,8 +339,6 @@
     "image_name": "cyberdojofoundation/haskell_hunit",
     "test_framework": true
   },
-
-
   "java": {
     "from": "openjdk:8-jdk-alpine",
     "image_name": "cyberdojofoundation/java",
@@ -355,6 +347,16 @@
   "java-approval": {
     "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_approval",
+    "test_framework": true
+  },
+  "java-cucumber3base": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_cucumber3_base",
+    "test_framework": false
+  },
+  "java-cucumber3spring": {
+    "from": "cyberdojofoundation/java_cucumber3_base",
+    "image_name": "cyberdojofoundation/java_cucumber3_spring",
     "test_framework": true
   },
   "java-cucumberbase": {
@@ -370,16 +372,6 @@
   "java-cucumberspring": {
     "from": "cyberdojofoundation/java_cucumber_base",
     "image_name": "cyberdojofoundation/java_cucumber_spring",
-    "test_framework": true
-  },
-  "java-cucumber3base": {
-    "from": "cyberdojofoundation/java",
-    "image_name": "cyberdojofoundation/java_cucumber3_base",
-    "test_framework": false
-  },
-  "java-cucumber3spring": {
-    "from": "cyberdojofoundation/java_cucumber3_base",
-    "image_name": "cyberdojofoundation/java_cucumber3_spring",
     "test_framework": true
   },
   "java-jmock": {
@@ -407,8 +399,6 @@
     "image_name": "cyberdojofoundation/java_junit_sqlite",
     "test_framework": true
   },
-
-
   "javascript": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/javascript-node",
@@ -429,14 +419,14 @@
     "image_name": "cyberdojofoundation/javascript-node_cucumber",
     "test_framework": true
   },
-  "javascript-jasmine": {
-    "from": "cyberdojofoundation/javascript-node",
-    "image_name": "cyberdojofoundation/javascript-node_jasmine",
-    "test_framework": true
-  },
   "javascript-cucumber-jasmine": {
     "from": "cyberdojofoundation/javascript-node_cucumber",
     "image_name": "cyberdojofoundation/javascript-node_cucumber_jasmine",
+    "test_framework": true
+  },
+  "javascript-jasmine": {
+    "from": "cyberdojofoundation/javascript-node",
+    "image_name": "cyberdojofoundation/javascript-node_jasmine",
     "test_framework": true
   },
   "javascript-mocha-chai-sinon": {
@@ -449,8 +439,6 @@
     "image_name": "cyberdojofoundation/javascript-node_qunit_sinon",
     "test_framework": true
   },
-
-
   "kotlin": {
     "from": "openjdk:8-jdk-alpine",
     "image_name": "cyberdojofoundation/kotlin",
@@ -461,8 +449,6 @@
     "image_name": "cyberdojofoundation/kotlin_kotlintest",
     "test_framework": true
   },
-
-
   "nasm": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/nasm",
@@ -473,8 +459,6 @@
     "image_name": "cyberdojofoundation/nasm_assert",
     "test_framework": true
   },
-
-
   "perl": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/perl",
@@ -485,8 +469,6 @@
     "image_name": "cyberdojofoundation/perl_test_simple",
     "test_framework": true
   },
-
-
   "php": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/php",
@@ -497,8 +479,6 @@
     "image_name": "cyberdojofoundation/php_phpunit",
     "test_framework": true
   },
-
-
   "python": {
     "from": "python",
     "image_name": "cyberdojofoundation/python",
@@ -524,8 +504,6 @@
     "image_name": "cyberdojofoundation/python_unittest",
     "test_framework": true
   },
-
-
   "r": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/rbase",
@@ -536,8 +514,6 @@
     "image_name": "cyberdojofoundation/r_runit",
     "test_framework": true
   },
-
-
   "ruby": {
     "from": "ruby:alpine",
     "image_name": "cyberdojofoundation/ruby",
@@ -568,8 +544,11 @@
     "image_name": "cyberdojofoundation/ruby_test_unit",
     "test_framework": true
   },
-
-
+  "ruby-testunit-sinatra": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/ruby_test_unit_sinatra",
+    "test_framework": true
+  },
   "rust": {
     "from": "alpine:latest",
     "image_name": "cyberdojofoundation/rust",
@@ -580,46 +559,29 @@
     "image_name": "cyberdojofoundation/rust_test",
     "test_framework": true
   },
-
-
-
+  "scala": {
+    "from": "openjdk:8-alpine",
+    "image_name": "cyberdojofoundation/scala",
+    "test_framework": false
+  },
+  "scala-test": {
+    "from": "cyberdojofoundation/scala",
+    "image_name": "cyberdojofoundation/scala_scalatest",
+    "test_framework": true
+  },
   "swift": {
     "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
     "image_name": "cyberdojofoundation/swift",
     "test_framework": false
-  },
-  "swift-xctest": {
-    "from": "cyberdojofoundation/swift",
-    "image_name": "cyberdojofoundation/swift_xctest",
-    "test_framework": true
   },
   "swift-swordfish": {
     "from": "cyberdojofoundation/swift_xctest",
     "image_name": "cyberdojofoundation/swift_swordfish",
     "test_framework": true
   },
-
-
-  "vhdl": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/vhdl",
-    "test_framework": false
-  },
-  "vhdl-assert": {
-    "from": "cyberdojofoundation/vhdl",
-    "image_name": "cyberdojofoundation/vhdl_assert",
-    "test_framework": true
-  },
-
-
-  "visual-basic": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/visual-basic",
-    "test_framework": false
-  },
-  "visual-basic-nunit": {
-    "from": "cyberdojofoundation/visual-basic",
-    "image_name": "cyberdojofoundation/visual-basic_nunit",
+  "swift-xctest": {
+    "from": "cyberdojofoundation/swift",
+    "image_name": "cyberdojofoundation/swift_xctest",
     "test_framework": true
   }
 }
