@@ -544,11 +544,6 @@
     "image_name": "cyberdojofoundation/ruby_test_unit",
     "test_framework": true
   },
-  "ruby-testunit-sinatra": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/ruby_test_unit_sinatra",
-    "test_framework": true
-  },
   "rust": {
     "from": "alpine:latest",
     "image_name": "cyberdojofoundation/rust",
