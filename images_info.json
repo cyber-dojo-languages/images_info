@@ -444,6 +444,11 @@
     "image_name": "cyberdojofoundation/nasm_assert",
     "test_framework": true
   },
+  "pascal": {
+    "from": "alpine",
+    "image_name": "cyberdojofoundation/pascal-assert",
+    "test_framework": true
+  },
   "perl": {
     "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
     "image_name": "cyberdojofoundation/perl",
