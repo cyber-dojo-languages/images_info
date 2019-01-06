@@ -445,8 +445,8 @@
     "test_framework": true
   },
   "pascal": {
-    "from": "alpine",
-    "image_name": "cyberdojofoundation/pascal-assert",
+    "from": "alpine:latest",
+    "image_name": "cyberdojofoundation/freepascal_assert",
     "test_framework": true
   },
   "perl": {
